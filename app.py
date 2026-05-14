@@ -9,7 +9,7 @@ import os
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key-change-this'
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/gesture_player'
+app.config['MONGO_URI'] = 'mongodb+srv://gesture:sowmyasp45@myservers.tujbncq.mongodb.net/gesturedb?retryWrites=true&w=majority&appName=Myservers'
 mongo = PyMongo(app)
 
 # JWT Token Required Decorator
